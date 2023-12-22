@@ -1,0 +1,51 @@
+Cambiare directory
+cd /percorso/alla/directory
+
+Creare file vuoto
+type nul > nome_del_file
+
+Rinominare un file
+ren nome_del_file nuovo_nome_del_file
+
+Eliminare un file
+del nome_del_file
+
+Creare cartella
+mkdir nome_della_cartella
+
+Eliminare cartella
+rmdir /s /q nome_della_cartella
+
+Compilare ed eseguire un file C (usando il compilatore MinGW, ad esempio):
+gcc nome_del_file.c -o nome_del_programma
+nome_del_programma
+
+Compilare ed eseguire un file C++ (usando il compilatore MinGW, ad esempio):
+g++ nome_del_file.cpp -o nome_del_programma
+nome_del_programma
+
+Compilare ed eseguire un file Java (assicurati di avere Java JDK installato):
+javac nome_del_file.java
+java nome_del_file
+
+Eseguire un file Python:
+python nome_del_file.py
+
+Visualizzare il contenuto di un file da Terminale
+//ATTENZIONE: chiaramente dopo il punto metti l'estensione del file che vuoi visualizzare
+type miofile.txt   
+
+Per modificarne il contenuto
+//ATTENZIONE: chiaramente dopo il punto metti l'estensione del file che vuoi visualizzare
+start miofile.estensione
+notepad miofile.txt
+edit miofile.txt
+
+
+
+
+
+
+
+
+

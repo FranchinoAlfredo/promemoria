@@ -1,0 +1,49 @@
+﻿//Navigazione
+cd /percorso/alla/directory
+
+//Creare un file vuoto
+touch nome_del_file
+
+//rinominare o modificare estensione
+mv vecchio_nome_del_file nuovo_nome_del_file
+
+//eliminare file
+rm nome_del_file
+
+//Creare nuova cartella
+mkdir nome_della_cartella
+
+//Eliminare nuova cartella
+rm -r -f nome_della_cartella
+
+//Compilare un file C
+gcc nome_del_file.c -o nome_del_programma./nome_del_programma
+
+//Compilare un file C++
+g++ nome_del_file.cpp -o nome_del_programma./nome_del_programma
+
+//Compilare un file Java
+javac nome_del_file.java
+java nome_del_file
+
+//Eseguire un file Python
+python nome_del_file.py
+
+//Visualizzare contenuto di un file
+cat miofile.txt
+
+//modificare contenuto di un file
+nano miofile.txt
+
+//attenzione puoi aprirlo anche con
+mousepad miofile.txt
+
+//oppure 
+vim miofile.txt
+
+//Vim da ricordare
+clicca i per modificare il file 
+
+una volta finito esc e :wq
+
+se vuoi solo uscire :q!

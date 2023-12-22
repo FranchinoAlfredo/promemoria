@@ -1,0 +1,103 @@
+/* Reset dei margini e dei padding per tutti gli elementi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definizione di uno stile di base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile per l'area di intestazione della pagina */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Stile per la barra di navigazione */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Stile per i collegamenti nella barra di navigazione */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Stile per i collegamenti al passaggio del mouse */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Stile per il contenuto principale */
+.main-content {
+    padding: 20px;
+}
+
+/* Stile per un elenco non ordinato */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Stile per un elenco ordinato */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Stile per i paragrafi */
+p {
+    margin-bottom: 20px;
+}
+
+/* Stile per gli elementi di intestazione (h1, h2, h3, ecc.) */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
+/* Stile per le immagini */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Stile per i pulsanti */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile per il piede di pagina */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media query per dispositivi più piccoli */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}

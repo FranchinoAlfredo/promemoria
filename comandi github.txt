@@ -1,0 +1,37 @@
+git clone // clona progetto
+git init 
+/* usalo creando una cartella->nuovoTitolo->ApriCartellaConCode->ctrl+o accentata e nel terminale ci metti il comando git init per inizializzare il progetto poi crea direttamente da code i file all'interno della cartella */
+
+git status // clicca per vedere lo stato di aggiornamento del tuo workflow
+
+git add file.py // affianco ci metti il nome del file.estensione e te lo salva
+
+git add. // salva tutti i file nella cartella su git
+
+git commit -m Titolo: // aggiungi commit che serve da checkpoint riassuntivo
+
+//le due istruzioni git per settare il tuo account
+git config --global user.email ""
+git config --global user.name ""
+
+connetti con il tuo account: ricorda di mettere l'url del repository giusto
+
+/*questo connette per la prima volta la tua cartella git
+git remote add origin urlCartella
+git branch -M main  /*Cambia 'master' con 'main' se stai usando una versione recente di Git*/
+git push -u origin main  /*Cambia 'master' con 'main' se stai usando una versione recente di Git*/
+fino a qui*/
+
+/* qui invece quando hai gia collegato la cartella e ti devi riconnettere*/
+ 
+ git remote - v 
+ 
+ //ti esce il percorso della tua cartella git collegata a github 
+ se tutto e' andato correttamente
+
+//poi fai
+git add . //oppure 
+git add file.estensione
+git commit -m "testo del commit"
+git push origin main //per pubblicare online il tutto
+git log // visualizza commit
