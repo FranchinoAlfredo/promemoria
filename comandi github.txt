@@ -35,3 +35,5 @@ git add file.estensione
 git commit -m "testo del commit"
 git push origin main //per pubblicare online il tutto
 git log // visualizza commit
+
+git checkout -b dev // ti sposti dal branch master al branch develop

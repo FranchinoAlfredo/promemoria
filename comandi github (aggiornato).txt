@@ -1,0 +1,32 @@
+// comandi git aggiornati
+-------------------------
+//inizializza
+git init
+
+//le due istruzioni git per settare il tuo account
+git config --global user.email ""
+git config --global user.name ""
+
+//la prima volta
+git remote add origin <nuovo_url_del_repository>
+
+//setta url cartella creata su github
+git remote set-url origin <nuovo_url_del_repository>
+
+//Se desideri mantenere le terminazioni di riga LF nei file, puoi impostare Git per non modificare le terminazioni di riga
+git config --global core.autocrlf input
+
+//Altrimenti diversamente
+git config --global core.autocrlf false
+
+//visualizza settaggio
+git remote -v
+
+// carica file nella cartella
+git add .
+
+//inserisci commit
+git commit -m "messaggio"
+
+//pubblica 
+git push origin main
